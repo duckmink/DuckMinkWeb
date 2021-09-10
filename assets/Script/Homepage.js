@@ -7,7 +7,7 @@ let hero_dropdown = () => {
         item.forEach(element => {
             element.addEventListener("click", () => {
                 console.log(element);
-                btn.innerHTML = element.innerHTML + `<img src="../Kenzapp/assets/Photos/hero_drop_down_arrow.png">`;
+                btn.innerHTML = element.innerHTML + `<img src="assets/Photos/hero_drop_down_arrow.png">`;
                 dropdown.classList.add("hide")
             })
         });

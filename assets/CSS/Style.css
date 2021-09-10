@@ -409,7 +409,13 @@ ul a:hover {
   font-size: 17px;
   color: #fff;
   padding: 18.7px 44.25px;
-  margin: 10px 45px;
+  margin: 10px 0px 10px 45px;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-background .hero-start-button {
+    margin: 10px 45px;
+  }
 }
 
 .hero-background .hero-start-button:hover {
