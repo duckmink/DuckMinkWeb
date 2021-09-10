@@ -700,7 +700,12 @@ ul {
     border-bottom: 1px solid #e5e5e5;
     .question-img {
         max-height: 620px;
-        width: inherit;
+        width: auto;
+    }
+    @media screen and (max-width:576px) {
+        .question-img {
+            width: inherit;
+        }
     }
     .question-text {
         h2 {

@@ -853,7 +853,13 @@ ul a:hover {
 
 .question-background-color .question-img {
   max-height: 620px;
-  width: inherit;
+  width: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .question-background-color .question-img {
+    width: inherit;
+  }
 }
 
 .question-background-color .question-text h2 {
