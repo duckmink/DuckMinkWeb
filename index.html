@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzap</title>
+
+
+    <script src="https://kit.fontawesome.com/bb0702965d.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container-md">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo col-lg-4">
+                    <a href="index.html">
+                        <img src="assets/Photos/kenzao header logo.png" alt="KenZap logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 d-md-block d-none">
+                    <ul class="d-lg-flex d-none align-items-center justify-content-end">
+                        <li class="navbar-item"><a href="Products.html">PRODUCTS</a></li>
+                        <li class="navbar-item"><a href="Pricing.html">PRICING</a></li>
+                        <li class="navbar-item"><a href="About.html">ABOUT</a></li>
+                        <li class="navbar-item"><a href="Contact.html">CONTACT</a></li>
+                        <li class="navbar-item"><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <div class="d-lg-flex d-none justify-content-end">
+                        <button type="button" class="btn primary-color-kenzap header-btn-2">CREAT NOW</button>
+                    </div>
+                </div>
+
+                <!-- Responsive button -->
+                <div class="d-flex d-lg-none justify-content-end  header-responsive-btn">
+                    <div class="d-none d-sm-block">
+                        <button type="button" class="btn primary-color-kenzap header-btn-1">CREAT NOW</button>
+                    </div>
+                    <div>
+                        <button class="external-menu-btn"><i class="fas fa-bars primary-color-kenzap"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile dropdown -->
+        <div>
+            <div class="container-md d-block d-lg-none">
+                <div class="mobile-navbar">
+                    <ul class="mobile-navbar-border hide" id="external-menu-dropdown">
+                        <li class="mobile-navbar-item"><a href="Products.html">PRODUCTS</a></li>
+                        <li class="mobile-navbar-item"><a href="Pricing.html">PRICING</a></li>
+                        <li class="mobile-navbar-item"><a href="About.html">ABOUT</a></li>
+                        <li class="mobile-navbar-item"><a href="Contact.html">CONTACT</a></li>
+                        <li class="mobile-navbar-item"><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Back to top button -->
+    <div class="backtop-box hide" id="backtop-btn">
+        <a class="backtop-btn" href="#header">
+            <i class="fas fa-arrow-up primary-color-kenzap"></i>
+        </a>
+    </div>
+
+
+    <!-- HERO -->
+    <section>
+        <div class="hero-background d-flex flex-column justify-content-center container-fluid">
+            <div class="container-md">
+                <div class="hero-text">
+                    <h2 class="hero-text-title row col-12 justify-content-center col-md-6 justify-content-md-start">Create Professional Looking Website</h2>
+                    <p class="hero-text-subtitle row col-12 justify-content-center col-md-6 justify-content-md-start">With latest design trends and technologies simply be the first on the market.</p>
+                </div>
+                <div class="d-flex col-12 col-xl-6 align-items-center justify-content-center justify-content-md-start">
+                    <div class="hero-dropdown">
+                        <button class="hero-dropdown-btn d-flex justify-content-between align-items-center">Select Website Category<img src="assets/Photos/hero_drop_down_arrow.png"></button>
+                        <div class="hero-dropdown-content-box hide">
+                            <p class="hero-dropdown-item">Category 1</p>
+                            <p class="hero-dropdown-item">Category 2</p>
+                            <p class="hero-dropdown-item">Category 3</p>
+                        </div>
+                    </div>
+                    <div class="hero-start">
+                        <button class="hero-start-button">
+                    Start Free Now
+                </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hero-counter-box d-flex flex-column justify-content-center">
+                    <div class="hero-counter-content d-flex">
+                        <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                            <div class="hero-counter-number" data="3845304">0</div>
+                            <div class="hero-counter-title">App Users</div>
+                        </div>
+                        <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                            <div class="hero-counter-number" data="212304">0</div>
+                            <div class="hero-counter-title">Clients</div>
+                        </div>
+                        <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                            <div class="hero-counter-currency" data="92812304">0</div>
+                            <div class="hero-counter-title">Revenue</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURES-->
+    <section>
+        <div class="features-background-color">
+            <div class="container-md">
+                <div class="features-container">
+                    <!-- Title -->
+                    <div class="row">
+                        <h2 class="features-title text-center">Everything You Need in One Place</h2>
+                    </div>
+                    <!-- Item -->
+                    <div class="position-relative row">
+                        <!-- Box 1 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Easy drag and drop</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 2 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Mobile optimized</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 3 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">100s templates</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 4 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Google Analystics</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 5 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Customizable menus</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 6 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">ShoutOut email marketing</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 7 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Commission free online ordering</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 8 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Search engine friendly</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 9 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Quick table reservations</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 10 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Secure hosting</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 11 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">Facebook menu App</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Box 12 -->
+                        <div class="features-item-box col-12 col-md-6 col-lg-4">
+                            <div class="features-item-title d-flex align-items-start justify-content-center justify-content-md-start features-hover">
+                                <img src="assets/Photos/check_icon_features.png" class="features-item-check">
+                                <div class="d-flex flex-column">
+                                    <p class="features-item-title">24/7 support</p>
+                                    <p class="features-item-content hide">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit nulla nihil quasi iure error ab harum nostrum porro deleniti.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center features-btn-box">
+                        <button class="features-btn">Create Now</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- MAP -->
+    <section>
+        <div class="map-background-color">
+            <div class="d-flex flex-column align-items-center container">
+                <div class="map-title-box">
+                    <h2 class="map-title">Our Users Around The World</h2>
+                </div>
+                <!-- Map and dots -->
+                <div class="map-box text-center col-8">
+                    <img src="assets/Photos/Map.png" alt="Map" class="map-image">
+                    <div>
+                        <img src="assets/Photos/map dot.png" class="map-dot dot-pos1">
+                    </div>
+                    <div>
+                        <img src="assets/Photos/map dot.png" class="map-dot dot-pos2">
+                    </div>
+                    <div>
+                        <img src="assets/Photos/map dot.png" class="map-dot dot-pos3">
+                    </div>
+                    <div>
+                        <img src="assets/Photos/map dot.png" class="map-dot dot-pos4">
+                    </div>
+                    <div>
+                        <img src="assets/Photos/map dot.png" class="map-dot dot-pos5">
+                    </div>
+                </div>
+                <!-- Stat -->
+                <div class="col-6 d-none d-md-block">
+                    <div class="hero-counter-box d-flex flex-column justify-content-center">
+                        <div class="hero-counter-content d-flex">
+                            <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                <div class="hero-counter-number" data="3845304">0</div>
+                                <div class="hero-counter-title">App Users</div>
+                            </div>
+                            <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                <div class="hero-counter-number" data="212304">0</div>
+                                <div class="hero-counter-title">Clients</div>
+                            </div>
+                            <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                <div class="hero-counter-currency" data="92812304">0</div>
+                                <div class="hero-counter-title">Revenue</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button -->
+                <div class="d-flex justify-content-center features-btn-box">
+                    <button class="features-btn">Create Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET STARTED -->
+    <section>
+        <div class="started-background-color">
+            <div class="d-flex flex-column align-items-center container">
+                <div class="started-title-box">
+                    <h2 class="started-title">Let's Get Started</h2>
+                </div>
+
+                <div class="started-infograph row col-12">
+
+                    <img src="assets/Photos/started-Line.png" class="line d-lg-block d-none col-8">
+
+
+
+                    <!-- Sign up -->
+                    <div class="started-icon-box col-12 col-md-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="started-icon">
+                                <img src="assets/Photos/sign up icon.png" alt="sign-up" class="started-icon-content">
+                                <div class="started-icon-number">1</div>
+                            </div>
+                            <div class="started-icon-text">
+                                <h2>Sign Up</h2>
+                                <p>Sign up / register here for free to create your account</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Choose -->
+                    <div class="started-icon-box col-12 col-md-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="started-icon">
+                                <img src="assets/Photos/choose icon.png" alt="sign-up" class="started-icon-content">
+                                <div class="started-icon-number">2</div>
+                            </div>
+                            <div class="started-icon-text">
+                                <h2>Choose</h2>
+                                <p>Choose prebuilt website that fits your needs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Customize -->
+                    <div class="started-icon-box col-12 col-md-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="started-icon">
+                                <img src="assets/Photos/customize icon.png" alt="sign-up" class="started-icon-content">
+                                <div class="started-icon-number">3</div>
+                            </div>
+                            <div class="started-icon-text">
+                                <h2>Customize</h2>
+                                <p> Customize your website or add texts, images etc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Share -->
+                    <div class="started-icon-box col-12 col-md-6 col-lg-3">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="started-icon">
+                                <img src="assets/Photos/sign up icon.png" alt="sign-up" class="started-icon-content">
+                                <div class="started-icon-number">4</div>
+                            </div>
+                            <div class="started-icon-text">
+                                <h2>Share</h2>
+                                <p>Share your professional looking website with the world</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section>
+        <div class="port-background-color">
+            <div class="container">
+                <div class="port-title-box d-flex flex-column align-items-center">
+                    <h2>We Makes Things Happen</h2>
+                    <p class="col-6 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptatum voluptas repellat fugiat tempora quos sit sint illum dolore? Sed inventore expedita molestias beatae laboriosam accusamus quidem, neque ut tempore.</p>
+                    <div class="features-btn-box">
+                        <button class="features-btn">Create Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 port-slider">
+                <div class="owl-carousel">
+                    <div class="item item-color-2">
+                        <div class="hover-content position-absolute">
+                            <p>Wordpress Theme</p>
+                            <h3>Lionic Legal Finance Website Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia unde itaque eius ad reiciendis facere, qui quo deleniti maiores quam, ullam placeat error, enim ducimus quas labore rerum animi!</p>
+                        </div>
+                    </div>
+                    <div class="item item-color-3">
+                        <div class="hover-content position-absolute">
+                            <p>Wordpress Theme</p>
+                            <h3>Lionic Legal Finance Website Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia unde itaque eius ad reiciendis facere, qui quo deleniti maiores quam, ullam placeat error, enim ducimus quas labore rerum animi!</p>
+                        </div>
+                    </div>
+                    <div class="item item-color-4">
+                        <div class="hover-content position-absolute">
+                            <p>Wordpress Theme</p>
+                            <h3>Lionic Legal Finance Website Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia unde itaque eius ad reiciendis facere, qui quo deleniti maiores quam, ullam placeat error, enim ducimus quas labore rerum animi!</p>
+                        </div>
+                    </div>
+                    <div class="item item-color-1">
+                        <div class="hover-content position-absolute">
+                            <p>Wordpress Theme</p>
+                            <h3>Lionic Legal Finance Website Design</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia unde itaque eius ad reiciendis facere, qui quo deleniti maiores quam, ullam placeat error, enim ducimus quas labore rerum animi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- QUESTION -->
+    <section>
+        <div class="question-background-color">
+            <div class="d-flex container-md flex-lg-row flex-column-reverse">
+                <div class="col-12 col-lg-6 pt-4 pt-lg-0 text-center">
+                    <img src="assets/Photos/question.jpg" alt="phone" class="question-img">
+                </div>
+                <div class="col-12 col-lg-6 question-text d-flex flex-column justify-content-between">
+                    <h2>Question?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur amet accusantium quia hic neque rerum! Suscipit quaerat omnis est, laborum ea perspiciatis, voluptatum eos <a href="#">maiores nobis</a> aliquid et reprehenderit.</p>
+                    <div>
+                        <a class="contact" href="#">+84 123456789</a>
+                    </div>
+                    <div>
+                        <a class="contact" href="#">minloz119@gmail.com</a>
+                    </div>
+                    <div class="form-box">
+                        <div class="d-flex justify-content-between">
+                            <div class="col-6 left">
+                                <input type="text" class="form-control name" placeholder="Your Name">
+                            </div>
+                            <div class="d-flex col-6">
+                                <select class="form-select code">
+                                    <option selected>+84</option>
+                                    <option value="1">+69</option>
+                                    <option value="2">+96</option>
+                                    <option value="3">+42</option>
+                                  </select>
+                                <input type="text" class="form-control phone" maxlength="10" placeholder="000 000 000">
+                            </div>
+                        </div>
+                        <div class="w-100 d-flex right">
+                            <textarea cols="30" rows="10" class="form-control message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="features-btn-box">
+                            <button class="features-btn">Send Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <section>
+        <div class="footer-background">
+            <div class="container-md">
+                <div class="contact-link-box row d-none d-md-flex">
+                    <!-- Our company -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-5 pt-md-0">
+                        <h2>OUR COMPANY</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Templates</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Pricing</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Features</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Licenses</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Products</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Developers</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Help center -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-md-0">
+                        <h2>HELP CENTER</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Help Center</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Item Support</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Customer Refunds</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Billing Information</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Licenses</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Documentation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Our community -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-lg-0">
+                        <h2>OUR COMMUNITY</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Our Community</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Join Community</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Blogs</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Forums</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Meetups</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stat -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-lg-0">
+                        <div>
+                            <img src="assets/Photos/kenzap logo footer stat.png" alt="">
+                        </div>
+                        <div class="hero-counter-box">
+                            <div class="hero-counter-content d-flex flex-column align-items-center align-items-md-start">
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-number" data="3845304">0</div>
+                                    <div class="hero-counter-title">App Users</div>
+                                </div>
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-number" data="212304">0</div>
+                                    <div class="hero-counter-title">Clients</div>
+                                </div>
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-currency" data="92812304">0</div>
+                                    <div class="hero-counter-title">Revenue</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between footer-end">
+                    <p>© 2017 Kenzap. ALL RIGHTS RESERVED.</p>
+                    <div class="social-media-box">
+                        <a href="#"><img src="assets/Photos/fb icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/twt icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/gg icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/yt icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/linkedin icon footer.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/Script/Main.js"></script>
+    <script src="assets/Script/Homepage.js"></script>
+</body>
+
+</html>

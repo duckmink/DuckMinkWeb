@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../Fonts/OpenSans-Bold.woff2") format("woff2"), url("../Fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@-webkit-keyframes navbar-line {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes navbar-line {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  -webkit-box-shadow: 0px 0px 30px 0px #909090;
+          box-shadow: 0px 0px 30px 0px #909090;
+}
+
+header .navbar-item {
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  list-style-type: none;
+  padding: 15px 20px;
+  position: relative;
+}
+
+header a {
+  position: relative;
+}
+
+header a::after {
+  content: " ";
+  background: #9376df;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 44px;
+  height: 2px;
+  opacity: 0;
+}
+
+header .navbar-selected {
+  color: #9376df !important;
+  position: relative;
+}
+
+header .navbar-selected::after {
+  content: " ";
+  background: #9376df;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 44px;
+  height: 2px;
+  opacity: 1;
+}
+
+header .navbar-item:hover a::after {
+  -webkit-animation: navbar-line 200ms forwards;
+          animation: navbar-line 200ms forwards;
+}
+/*# sourceMappingURL=Alt header.css.map */

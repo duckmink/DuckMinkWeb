@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+
+    <script src="https://kit.fontawesome.com/bb0702965d.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+
+
+    <link rel="stylesheet" href="assets/CSS/Alt header.css">
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container-md">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo col-lg-4">
+                    <a href="index.html">
+                        <img src="assets/Photos/kenzao header logo.png" alt="KenZap logo">
+                    </a>
+                </div>
+                <div class="col-lg-6 d-md-block d-none">
+                    <ul class="d-lg-flex d-none align-items-center justify-content-end">
+                        <li class="navbar-item"><a href="Products.html">PRODUCTS</a></li>
+                        <li class="navbar-item"><a href="Pricing.html">PRICING</a></li>
+                        <li class="navbar-item"><a href="About.html" class="navbar-selected">ABOUT</a></li>
+                        <li class="navbar-item"><a href="Contact.html">CONTACT</a></li>
+                        <li class="navbar-item"><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <div class="d-lg-flex d-none justify-content-end">
+                        <button type="button" class="btn primary-color-kenzap header-btn-2">CREAT NOW</button>
+                    </div>
+                </div>
+
+                <!-- Responsive button -->
+                <div class="d-flex d-lg-none justify-content-end  header-responsive-btn">
+                    <div class="d-none d-sm-block">
+                        <button type="button" class="btn primary-color-kenzap header-btn-1">CREAT NOW</button>
+                    </div>
+                    <div>
+                        <button class="external-menu-btn"><i class="fas fa-bars primary-color-kenzap"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile dropdown -->
+        <div>
+            <div class="container-md d-block d-lg-none">
+                <div class="mobile-navbar">
+                    <ul class="mobile-navbar-border hide" id="external-menu-dropdown">
+                        <li class="mobile-navbar-item"><a href="Products.html">PRODUCTS</a></li>
+                        <li class="mobile-navbar-item"><a href="Pricing.html">PRICING</a></li>
+                        <li class="mobile-navbar-item"><a href="About.html" class="navbar-selected">ABOUT</a></li>
+                        <li class="mobile-navbar-item"><a href="c">CONTACT</a></li>
+                        <li class="mobile-navbar-item"><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Back to top button -->
+    <div class="backtop-box hide" id="backtop-btn">
+        <a class="backtop-btn" href="#header">
+            <i class="fas fa-arrow-up primary-color-kenzap"></i>
+        </a>
+    </div>
+
+    <!-- Page title -->
+    <section>
+        <div class="pricing-background">
+            <div class="container-md">
+                <!-- Tilte -->
+                <div class="pricing-tilte-box d-flex justify-content-center w-100">
+                    <div class="pricing-title-text w-50 text-center">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eveniet totam reiciendis magni eius dolorem. Soluta non, laborum quos nam, adipisci repellat quae iure nisi culpa cum sint temporibus est.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Roadmap -->
+    <section>
+        <div class="timeline-bg">
+            <div class="container-md">
+                <div class="timeline-title text-center">
+                    <h2>Our Roadmap</h2>
+                </div>
+                <!-- Timeline -->
+                <div class="timeline">
+                    <div class="timeline-box timeline-box-left text-end box1">
+                        <div class="content">
+                            <p class="date">June 2013</p>
+                            <h3>Bước 1</h3>
+                            <p class="d-none d-lg-block">Tạo after cho container chứa timeline và set position: absolute, thêm style để tạo ra trục chính</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-right box2">
+                        <div class="content">
+                            <p class="date">Dec 2013</p>
+                            <h3>Bước 2</h3>
+                            <p class="d-none d-lg-block">Thêm các timeline event cùng arrow và dot với position: aboulute</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-left text-end box3">
+                        <div class="content">
+                            <p class="date">Feb 2014</p>
+                            <h3>Bước 3</h3>
+                            <p class="d-none d-lg-block">Vì container cha của các timeline event có posistion relative, nên khi con của nó là absolute, height của cha chỉ bằng height của con, và các timeline event xếp đè lên nhau. Cần dùng Javascript để xử lý vấn đề này</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-right box4">
+                        <div class="content">
+                            <p class="date">Dec 2016</p>
+                            <h3>Bước 4</h3>
+                            <p class="d-none d-lg-block">Trong file Js, tạo hằng đo chiều cao gốc của container cha. Tạo biến đo chiều cao của timeline event cuối cùng</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-left text-end box5">
+                        <div class="content">
+                            <p class="date">Mar 2017</p>
+                            <h3>Bước 5</h3>
+                            <p class="d-none d-lg-block">Sửa height của container cha bằng tổng height của cha gốc + height của timeline event cuối cùng.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-right timeline-box-not-yet timeline-box-not-yet-right box6">
+                        <div class="content">
+                            <p class="date">May 2018</p>
+                            <h3>Bước 6</h3>
+                            <p class="d-none d-lg-block">Tạo event, mỗi khi thay đổi res của cửa sổ, thì sẽ đọc lại biến chiều cao của timeline event cuối cùng và cộng nó vào chiều cao gốc của container cha.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box timeline-box-left text-end timeline-box-not-yet timeline-box-not-yet-left box7">
+                        <div class="content">
+                            <p class="date">Nov 2020</p>
+                            <h3>Reference</h3>
+                            <p class="d-none d-lg-block">Read <a href="assets/Script/About.js">About.js</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TEAM -->
+    <section>
+        <div class="team-bg">
+            <div class="container-md">
+                <div class="team-title text-center">
+                    <h2>Meet The KenZap Team</h2>
+                </div>
+                <div class=team-member>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava ava1"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">Founder</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava ava2"></div>
+                                <div class="name">Cooler</div>
+                                <div class="pos">Co-Founder</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava ava3"></div>
+                                <div class="name">Bad</div>
+                                <div class="pos">CEO</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava ava4"></div>
+                                <div class="name">Good</div>
+                                <div class="pos">Human Resoures</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-xl-2 d-flex flex-column align-items-center member-item justify-content-between">
+                            <div>
+                                <div class="ava"></div>
+                                <div class="name">Đức Minh</div>
+                                <div class="pos">but lack of photo</div>
+                            </div>
+                            <div class="social-media">
+                                <a href="#"><img src="assets/Photos/member social 1.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 2.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 3.png"></a>
+                                <a href="#"><img src="assets/Photos/member social 4.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-btn-box m-0 text-center">
+                    <button class="features-btn">Talk to us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOW WE WORK -->
+    <section>
+        <div class="work-bg">
+            <div class="container-md">
+                <div class="work-title text-center">
+                    <h2>How We Work</h2>
+                </div>
+                <div class="work-content row">
+
+                    <div class="work-item col-lg-3 d-flex flex-column align-items-center">
+                        <div class="item-icon">
+                            <img src="assets/Photos/Analysis-icon.png">
+                            <div class="item-number">1</div>
+                        </div>
+                        <div class="item-text text-center">
+                            <h3>Analysis</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, distinctio.</p>
+                        </div>
+                    </div>
+                    <div class="work-item col-lg-3 d-flex flex-column align-items-center">
+                        <div class="item-icon">
+                            <img src="assets/Photos/Design-icon.png">
+                            <div class="item-number">2</div>
+                        </div>
+                        <div class="item-text text-center">
+                            <h3>Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, distinctio.</p>
+                        </div>
+                    </div>
+                    <div class="work-item col-lg-3 d-flex flex-column align-items-center">
+                        <div class="item-icon">
+                            <img src="assets/Photos/Develop-icon.png">
+                            <div class="item-number">3</div>
+                        </div>
+                        <div class="item-text text-center">
+                            <h3>Develop</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, distinctio.</p>
+                        </div>
+                    </div>
+                    <div class="work-item col-lg-3 d-flex flex-column align-items-center">
+                        <div class="item-icon">
+                            <img src="assets/Photos/Deploy-icon.png">
+                            <div class="item-number">4</div>
+                        </div>
+                        <div class="item-text text-center">
+                            <h3>Deploy</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, distinctio.</p>
+                        </div>
+                    </div>
+
+                    <span class="item-arrow item-arrow1 d-none d-lg-block">
+                        <img src="assets/Photos/how we work arrow.png" alt="">
+                    </span>
+                    <span class="item-arrow item-arrow2 d-none d-lg-block">
+                        <img src="assets/Photos/how we work arrow.png" alt="">
+                    </span>
+                    <span class="item-arrow item-arrow3 d-none d-lg-block">
+                        <img src="assets/Photos/how we work arrow.png" alt="">
+                    </span>
+
+                </div>
+                <div class="features-btn-box m-0 text-center">
+                    <button class="features-btn">Create Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- QUESTION -->
+    <section>
+        <div class="question-background-color">
+            <div class="d-flex container-md flex-lg-row flex-column-reverse">
+                <div class="col-12 col-lg-6 pt-4 pt-lg-0 text-center">
+                    <img src="assets/Photos/question.jpg" alt="phone" class="question-img">
+                </div>
+                <div class="col-12 col-lg-6 question-text d-flex flex-column justify-content-between">
+                    <h2>Question?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur amet accusantium quia hic neque rerum! Suscipit quaerat omnis est, laborum ea perspiciatis, voluptatum eos <a href="#">maiores nobis</a> aliquid et reprehenderit.</p>
+                    <div>
+                        <a class="contact" href="#">+84 123456789</a>
+                    </div>
+                    <div>
+                        <a class="contact" href="#">minloz119@gmail.com</a>
+                    </div>
+                    <div class="form-box">
+                        <div class="d-flex justify-content-between">
+                            <div class="col-6 left">
+                                <input type="text" class="form-control name" placeholder="Your Name">
+                            </div>
+                            <div class="d-flex col-6 right">
+                                <select class="form-select code">
+                                    <option selected>+84</option>
+                                    <option value="1">+69</option>
+                                    <option value="2">+96</option>
+                                    <option value="3">+42</option>
+                                  </select>
+                                <input type="text" class="form-control phone" maxlength="10" placeholder="000 000 000">
+                            </div>
+                        </div>
+                        <div class="w-100 d-flex">
+                            <textarea cols="30" rows="10" class="form-control message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="features-btn-box">
+                            <button class="features-btn">Send Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <section>
+        <div class="footer-background">
+            <div class="container-md">
+                <div class="contact-link-box row d-none d-md-flex">
+                    <!-- Our company -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-5 pt-md-0">
+                        <h2>OUR COMPANY</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Templates</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Pricing</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Features</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Licenses</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Products</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Developers</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Help center -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-md-0">
+                        <h2>HELP CENTER</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Help Center</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Item Support</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Customer Refunds</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Billing Information</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Licenses</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Documentation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Our community -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-lg-0">
+                        <h2>OUR COMMUNITY</h2>
+                        <div class="contact-link-item-box">
+                            <div class="link-item">
+                                <a href="#">Our Community</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Join Community</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Blogs</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Forums</a>
+                            </div>
+                            <div class="link-item">
+                                <a href="#">Meetups</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Stat -->
+                    <div class="col-12 col-md-6 col-lg-3 text-center text-md-start pt-4 pt-lg-0">
+                        <div>
+                            <img src="assets/Photos/kenzap logo footer stat.png" alt="">
+                        </div>
+                        <div class="hero-counter-box">
+                            <div class="hero-counter-content d-flex flex-column align-items-center align-items-md-start">
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-number" data="3845304">0</div>
+                                    <div class="hero-counter-title">App Users</div>
+                                </div>
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-number" data="212304">0</div>
+                                    <div class="hero-counter-title">Clients</div>
+                                </div>
+                                <div class="hero-counter-item d-flex flex-column col-4 justify-content-center">
+                                    <div class="hero-counter-currency" data="92812304">0</div>
+                                    <div class="hero-counter-title">Revenue</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between footer-end">
+                    <p>© 2017 Kenzap. ALL RIGHTS RESERVED.</p>
+                    <div class="social-media-box">
+                        <a href="#"><img src="assets/Photos/fb icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/twt icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/gg icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/yt icon footer.png"></a>
+                        <a href="#"><img src="assets/Photos/linkedin icon footer.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/Script/Main.js"></script>
+
+    <script src="assets/Script/About.js"></script>
+
+
+
+
+</body>
+
+</html>
