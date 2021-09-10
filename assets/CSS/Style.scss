@@ -345,7 +345,7 @@ ul {
         font-size: 17px;
         color: #fff;
         padding: 18.7px 44.25px;
-        margin-left: 45px;
+        margin: 10px 45px;
     }
     .hero-start-button:hover {
         animation: btn-hover 400ms forwards;
@@ -358,11 +358,13 @@ ul {
         border: 1px solid #e5e5e5;
         border-radius: 45px;
         width: 465px;
-        height: 90px;
+        height: fit-content;
+        box-sizing: content-box;
         transform: translateX(-50%) translateY(50%);
         .hero-counter-content {
             width: 375px;
             margin: 0px 45px;
+            padding: 10px 0;
         }
         .hero-counter-number,
         .hero-counter-currency {
@@ -375,6 +377,17 @@ ul {
             font-family: OpenSans;
             font-size: 14px;
             color: #909090;
+        }
+        .hero-counter-item {
+            padding: 10px 0;
+        }
+    }
+    @media screen and (max-width:576px) {
+        .hero-counter-box {
+            width: 90% !important;
+        }
+        .hero-counter-content {
+            width: fit-content !important;
         }
     }
 }
@@ -682,7 +695,7 @@ ul {
     border-bottom: 1px solid #e5e5e5;
     .question-img {
         max-height: 620px;
-        width: auto;
+        width: inherit;
     }
     .question-text {
         h2 {
@@ -731,7 +744,7 @@ ul {
                 padding: 0 0 0 28px;
             }
             .name {
-                max-width: 209px;
+                max-width: inherit;
             }
             .code {
                 box-sizing: border-box;
@@ -761,11 +774,45 @@ ul {
                     width: 100%
                 }
             }
-            .left {
-                padding-right: 5px;
+            @media screen and (max-width: 576px) {
+                .left {
+                    padding-right: 0px;
+                    padding-top: 10px;
+                }
+                .right {
+                    padding-left: 0px;
+                    padding-top: 10px;
+                }
             }
-            .right {
-                padding-left: 5px;
+            @media screen and (min-width: 576px) {
+                .left {
+                    padding-right: 5px;
+                    padding-top: 0px;
+                }
+                .right {
+                    padding-left: 5px;
+                    padding-top: 0px;
+                }
+            }
+            @media screen and (max-width: 576px) {
+                .contact-l {
+                    padding-right: 0px;
+                    padding-top: 10px;
+                }
+                .contact-r {
+                    padding-left: 0px;
+                    padding-top: 10px;
+                }
+            }
+            @media screen and (min-width: 576px) {
+                .contact-l {
+                    padding-right: 5px;
+                    padding-top: 0px;
+                }
+                .contact-r {
+                    padding-left: 5px;
+                    padding-top: 0px;
+                }
             }
         }
     }
@@ -833,9 +880,25 @@ ul {
     }
     .footer-end {
         line-height: 85px;
+        flex-wrap: wrap;
         .social-media-box {
             a {
                 padding-left: 20px;
+            }
+        }
+    }
+    @media screen and (max-width:576px) {
+        .footer-end {
+            line-height: normal;
+            flex-wrap: wrap;
+            .social-media-box {
+                padding: 5px;
+                a {
+                    padding: 10px;
+                }
+            }
+            p {
+                padding: 5px;
             }
         }
     }
@@ -1285,11 +1348,28 @@ ul {
                 width: inherit;
                 margin-bottom: 20px;
             }
+            @media screen and (max-width:576px) {
+                .date {
+                    border-radius: 5px;
+                    border: none;
+                    display: inline;
+                    font-family: OpenSans;
+                    font-size: 16px;
+                    color: #252525;
+                    line-height: 35px;
+                    width: inherit;
+                    margin-bottom: 20px;
+                    padding: 0;
+                }
+            }
             h3 {
                 font-family: OpenSans-Bold;
                 font-size: 26px;
                 color: #252525;
                 margin: 20px 0;
+            }
+            #ref {
+                word-wrap: break-word;
             }
             p {
                 font-family: OpenSans;
