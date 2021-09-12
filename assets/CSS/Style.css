@@ -534,6 +534,12 @@ ul a:hover {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .features-background-color .features-container .features-item-content {
+    display: block;
+  }
+}
+
 .features-btn-box {
   margin: 90px 0px;
 }
@@ -1589,6 +1595,21 @@ ul a:hover {
   background: #e5e5e5;
 }
 
+@media screen and (max-width: 576px) {
+  .timeline-bg .timeline .content {
+    padding: 10px !important;
+  }
+  .timeline-bg .timeline .date {
+    border: none !important;
+    font-size: 15px !important;
+    width: inherit !important;
+    padding: 0 !important;
+  }
+  .timeline-bg .timeline h3 {
+    font-size: 15px !important;
+  }
+}
+
 .timeline-bg .timeline .content {
   border: 1px solid #e5e5e5;
   border-radius: 5px;
@@ -1606,21 +1627,6 @@ ul a:hover {
   padding: 0 10px;
   width: inherit;
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 576px) {
-  .timeline-bg .timeline .content .date {
-    border-radius: 5px;
-    border: none;
-    display: inline;
-    font-family: OpenSans;
-    font-size: 16px;
-    color: #252525;
-    line-height: 35px;
-    width: inherit;
-    margin-bottom: 20px;
-    padding: 0;
-  }
 }
 
 .timeline-bg .timeline .content h3 {
